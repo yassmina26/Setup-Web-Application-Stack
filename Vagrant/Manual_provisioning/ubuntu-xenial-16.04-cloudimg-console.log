@@ -1,0 +1,110 @@
+         Starting /etc/rc.local Compatibility...
+[[0;32m  OK  [0m] Started ACPI event daemon.
+         Starting LSB: MD monitoring daemon...
+         Starting Virtualbox guest utils...
+         Starting System Logging Service...
+         Starting Accounts Service...
+         Starting Message of the Day...
+         Starting OpenBSD Secure Shell server...
+         Starting Snap Daemon...
+         Starting Ubuntu Advantage APT and MOTD Messages...
+         Starting Login Service...
+         Starting LSB: Record successful boot for GRUB...
+[[0;32m  OK  [0m] Started FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Started Regular background program processing daemon.
+[[0;32m  OK  [0m] Started Deferred execution scheduler.
+         Starting LXD - container startup/shutdown...
+[[0;32m  OK  [0m] Started iSCSI initiator daemon (iscsid).
+[[0;32m  OK  [0m] Started /etc/rc.local Compatibility.
+[[0;32m  OK  [0m] Started Message of the Day.
+[[0;32m  OK  [0m] Started System Logging Service.
+         Starting Login to default iSCSI targets...
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Started Unattended Upgrades Shutdown.
+[[0;32m  OK  [0m] Started LSB: MD monitoring daemon.
+[[0;32m  OK  [0m] Started Login to default iSCSI targets.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+         Mounting /vagrant...
+[[0;32m  OK  [0m] Started LSB: Record successful boot for GRUB.
+[[0;1;31mFAILED[0m] Failed to mount /vagrant.
+See 'systemctl status vagrant.mount' for details.
+[[0;1;33mDEPEND[0m] Dependency failed for Remote File Systems.
+         Starting LSB: daemon to balance interrupts for SMP systems...
+         Starting LSB: automatic crash report generation...
+         Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+         Starting Permit User Sessions...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+         Starting Terminate Plymouth Boot Screen...
+         Starting Hold until boot process finishes up...
+[[0;32m  OK  [0m] Started Hold until boot process finishes up.
+[[0;32m  OK  [0m] Started Getty on tty1.
+         Starting Set console scheme...
+[[0;32m  OK  [0m] Started Serial Getty on ttyS0.
+[[0;32m  OK  [0m] Reached target Login Prompts.
+[[0;32m  OK  [0m] Started Terminate Plymouth Boot Screen.
+[[0;32m  OK  [0m] Started Set console scheme.
+[[0;32m  OK  [0m] Started OpenBSD Secure Shell server.
+[[0;32m  OK  [0m] Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+         Starting Authenticate and Authorize Users to Run Privileged Tasks...
+[[0;32m  OK  [0m] Started LSB: automatic crash report generation.
+[[0;32m  OK  [0m] Started LXD - container startup/shutdown.
+[[0;32m  OK  [0m] Started LSB: daemon to balance interrupts for SMP systems.
+[[0;32m  OK  [0m] Started Virtualbox guest utils.
+[[0;32m  OK  [0m] Started Authenticate and Authorize Users to Run Privileged Tasks.
+[[0;32m  OK  [0m] Started Accounts Service.
+[   10.392357] e1000 0000:00:08.0 enp0s8: Reset adapter
+[   10.496325] e1000 0000:00:03.0 enp0s3: Reset adapter
+[[0;32m  OK  [0m] Started Snap Daemon.
+         Starting Wait until snapd is fully seeded...
+[[0;32m  OK  [0m] Started Wait until snapd is fully seeded.
+[[0;32m  OK  [0m] Reached target Multi-User System.
+[[0;32m  OK  [0m] Reached target Graphical Interface.
+         Starting Update UTMP about System Runlevel Changes...
+         Starting Apply the settings specified in cloud-config...
+[[0;32m  OK  [0m] Started Update UTMP about System Runlevel Changes.
+[[0;32m  OK  [0m] Started Ubuntu Advantage APT and MOTD Messages.
+[   11.196286] cloud-init[1350]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Sat, 27 Aug 2022 11:21:15 +0000. Up 11.04 seconds.
+[[0;32m  OK  [0m] Started Apply the settings specified in cloud-config.
+         Starting Execute cloud user/final scripts...
+[   11.929140] cloud-init[1371]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:final' at Sat, 27 Aug 2022 11:21:16 +0000. Up 11.73 seconds.
+[   11.933188] cloud-init[1371]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 finished at Sat, 27 Aug 2022 11:21:16 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb][dsmode=net].  Up 11.91 seconds
+[[0;32m  OK  [0m] Started Execute cloud user/final scripts.
+[[0;32m  OK  [0m] Reached target Cloud-init target.
+[   12.549210] e1000 0000:00:03.0 enp0s3: Detected Tx Unit Hang
+[   12.549210]   Tx Queue             <0>
+[   12.549210]   TDH                  <0>
+[   12.549210]   TDT                  <2>
+[   12.549210]   next_to_use          <2>
+[   12.549210]   next_to_clean        <0>
+[   12.549210] buffer_info[next_to_clean]
+[   12.549210]   time_stamp           <fffee51d>
+[   12.549210]   next_to_watch        <0>
+[   12.549210]   jiffies              <fffee6f5>
+[   12.549210]   next_to_watch.status <0>
+
+Ubuntu 16.04.7 LTS web01 ttyS0
+
+web01 login: [   14.581734] e1000 0000:00:03.0 enp0s3: Detected Tx Unit Hang
+[   14.581734]   Tx Queue             <0>
+[   14.581734]   TDH                  <0>
+[   14.581734]   TDT                  <2>
+[   14.581734]   next_to_use          <2>
+[   14.581734]   next_to_clean        <0>
+[   14.581734] buffer_info[next_to_clean]
+[   14.581734]   time_stamp           <fffee51d>
+[   14.581734]   next_to_watch        <0>
+[   14.581734]   jiffies              <fffee8f1>
+[   14.581734]   next_to_watch.status <0>
+[   16.642116] e1000 0000:00:03.0 enp0s3: Detected Tx Unit Hang
+[   16.642116]   Tx Queue             <0>
+[   16.642116]   TDH                  <0>
+[   16.642116]   TDT                  <2>
+[   16.642116]   next_to_use          <2>
+[   16.642116]   next_to_clean        <0>
+[   16.642116] buffer_info[next_to_clean]
+[   16.642116]   time_stamp           <fffee51d>
+[   16.642116]   next_to_watch        <0>
+[   16.642116]   jiffies              <fffeeaf5>
+[   16.642116]   next_to_watch.status <0>
+[   18.157671] e1000 0000:00:03.0 enp0s3: Reset adapter
+
